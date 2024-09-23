@@ -2,25 +2,18 @@ package org.example.practice1_variables
 
 fun main() {
 
-    var ordersCount: Int =75
-    val thankMessage : String ="Спасибо, что выбираете нас!"
+    var ordersCount: Int = 75
+    val thankMessage: String = "Спасибо, что выбираете нас!"
 
     println("Интернет-магазин:")
     println("Колличество заказов: $ordersCount")
-    println("Текст с благодарностью за покупку: "+thankMessage)
+    println("Текст с благодарностью за покупку: " + thankMessage)
 
-    var employeeCount: Int=2000
+    var employeeCount: Int = 2000
 
     //println("колличество работников: "+employeeCount)
 
-    employeeCount=employeeCount-1
+    employeeCount = employeeCount - 1
 
-    println("колличество работников: "+employeeCount)
+    println("колличество работников: " + employeeCount)
 }
-
-/*
-– Для начала выведи в консоль значения всех объявленных ранее переменных;
-– Далее нужно сделать так, чтобы программа хранила количество работников данного интернет-магазина (2000). Подбери подходящее наименование переменной, присвой ей значение и распечатай;
-– Далее представим, что один работник уволился. Закомментируй предыдущий код с распечаткой количества работников, присвой новое значение количества работников этой переменной и распечатай в консоль.
-
- */
